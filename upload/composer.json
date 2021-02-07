@@ -1,0 +1,40 @@
+{
+  "name": "bitstore-brasil/bitstore-brasil",
+  "description": "Projeto Bitstore Brasil",
+  "homepage": "https://www.bitstore.com.br/",
+  "type": "project",
+  "license": "GPL-3.0-or-later",
+  "prefer-stable": true,
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.6.0",
+    "composer/installers": "~1.2",
+    "cardinity/cardinity-sdk-php": "^1.0",
+    "braintree/braintree_php": "3.2.0",
+    "leafo/scssphp": ">=0.7.5",
+    "divido/divido-php": ">=1.1.1",
+    "klarna/kco_rest": "^2.2",
+    "zoujingli/wechat-php-sdk": ">=1.3.10"
+  },
+  "authors": [
+    {
+      "name": "Bitstore Brasil",
+      "homepage": "https://github.com/bitstore-brasil"
+    }
+  ],
+  "keywords": [
+    "bitstorebrasil",
+    "bitstore",
+    "ecommerce",
+    "framework",
+    "opensource"
+  ],
+  "support": {
+    "source": "https://github.com/bitstore-brasil/bitstore-brasil/releases",
+    "issues": "https://github.com/bitstore-brasil/bitstore-brasil/issues",
+    "forum": "https://www.bitstore.com.br/forum"
+  },
+  "config": {
+    "vendor-dir": "./system/storage/vendor/"
+  }
+}
