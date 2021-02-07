@@ -14,9 +14,6 @@ Here are some ideas to get you started:
 - 👋 
 -->
 
-### Projeto Bitstore Brasil
-================
-
 <img src="https://github.com/bitstore-brasil/bitstore-brasil/blob/main/img/bitstore-font-code.svg">
 <p align="left">
     <a href="./CHANGELOG.md"><img src="https://github.com/bitstore-brasil/bitstore-brasil/blob/main/img/bitstoreversion.svg" alt="Última versão"></a>
@@ -34,29 +31,27 @@ Here are some ideas to get you started:
 
 Desenvolvido com as tecnologias web: PHP 7, CSS3 e HTML5.
 
-O **Projeto Bitstore-oc3** é um fork do OpenCartBrasil.
+O **Projeto Bitstore Brasil** é um fork do OpenCartBrasil.
 Tem o objetivo de oferecer uma versão do OpenCart otimizada, atualizada, segura, com testes e que rode em PHP7.
 
 ## Roteiro
 
 ### Tarefas concluídas:
 - [x] Install do fork do OpenCartBrasil 1.5.0
+- [x] Arrumar update automático das lojas.
+- [x] Traduzido o install para Projeto Bitstore Brasil.
+- [x] Traduzir área de admin para pt-br.
+- [x] Reconfigurado footer.
 
 ### Tarefas em andamento:
-
-- [ ] Arrumar update automático das lojas.
+- [ ] Traduzir área do usuário para pt-br.
 
 ### Próximas tarefas:
-
-- [ ] Traduzido o install para Projeto Bitstore Brasil.
-- [ ] Traduzir área de admin para pt-br.
-- [ ] Reconfigurado footer.
 - [ ] Refeito Banner de Fabricante.
 - [ ] Refeito Banner de Principal.
 - [ ] Novas cores para o Menu principal.
 - [ ] Colocado whatsapp no footer.
 - [ ] Colocado o arquivo CHANCELGO.md para documentação de versão.
-- [ ] Traduzir área do usuário para pt-br.
 - [ ] Documentar a estrutura para construir um Layout.
 - [ ] Criar um Template novo padrão.
 

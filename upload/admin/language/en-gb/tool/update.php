@@ -1,6 +1,6 @@
 <?php
 // Heading
-$_['heading_title']      = 'Update version Bitstore Brasil';
+$_['heading_title']      = 'Update version Bitstore';
 
 // Text
 $_['text_success']       = 'Success: You are using the latest version %s!';

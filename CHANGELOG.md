@@ -6,6 +6,14 @@ e utiliza [Semantic Versioning](https://semver.org/lang/pt-BR/spec/v2.0.0.html).
 
 ## [Não lançada]
 
+## [0.1.3] (Data de lançamento: 07.02.2021)
+### Adicionado
+- Traduzido o install para Projeto Bitstore Brasil.
+- Traduzir área de admin para pt-br.
+- Reconfigurado footer do admin.
+- Reconfigurado login do admin.
+- Nova imagem Tema padrão no admin.
+
 ## [0.1.2] (Data de lançamento: 07.02.2021)
 ### Adicionado
 - Colocado a pasta Install da Bistore.
