@@ -4,8 +4,8 @@ $_['heading_title']          = 'Configuração';
 
 // Text
 $_['text_step_3']            = 'Preencha os dados para instalação';
-$_['text_db_connection']     = '1. Preencha os campos abaixo para o OpenCart se conectar com o banco de dados.';
-$_['text_db_administration'] = '2. Preencha os campos abaixo com um nome de usuário e senha para acessar a administração do OpenCart.';
+$_['text_db_connection']     = '1. Preencha os campos abaixo para a loja Bitstore se conectar com o banco de dados.';
+$_['text_db_administration'] = '2. Preencha os campos abaixo com um nome de usuário e senha para acessar a administração da loja Bitstore.';
 $_['text_mysqli']            = 'MySQLi';
 $_['text_mpdo']              = 'mPDO';
 $_['text_pgsql']             = 'PostgreSQL';
@@ -23,7 +23,7 @@ $_['entry_password']         = 'Senha';
 $_['entry_email']            = 'E-mail';
 
 // Error
-$_['error_db_driver']        = 'Driver obrigatório!';
+$_['error_db_driver']        = 'Driver é obrigatório!';
 $_['error_db_hostname']      = 'Servidor obrigatório!';
 $_['error_db_username']      = 'Usuário obrigatório!';
 $_['error_db_database']      = 'Banco de dados obrigatório!';
