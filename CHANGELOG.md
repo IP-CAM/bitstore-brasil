@@ -6,6 +6,10 @@ e utiliza [Semantic Versioning](https://semver.org/lang/pt-BR/spec/v2.0.0.html).
 
 ## [Não lançada]
 
+## [0.1.6] (Data de lançamento: 09.02.2021)
+### Modificado
+- Modificado o arquivo opencart.sql para instalação limpa.
+
 ## [0.1.5] (Data de lançamento: 09.02.2021)
 ### Modificado
 - Modificado arquivo stylesheet do thema default para a pasta catalog.
