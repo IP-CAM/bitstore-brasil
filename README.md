@@ -42,16 +42,14 @@ Tem o objetivo de oferecer uma versão do OpenCart otimizada, atualizada, segura
 - [x] Traduzido o install para Projeto Bitstore Brasil.
 - [x] Traduzir área de admin para pt-br.
 - [x] Reconfigurado footer.
+- [x] Traduzir área do usuário para pt-br.
+- [x] Criar um Template novo padrão.
 
 ### Tarefas em andamento:
-- [ ] Traduzir área do usuário para pt-br.
+- [ ] Montar teste automatizado para loja teste.
 
 ### Próximas tarefas:
-- [ ] Refeito Banner de Fabricante.
-- [ ] Refeito Banner de Principal.
-- [ ] Novas cores para o Menu principal.
-- [ ] Colocado whatsapp no footer.
-- [ ] Colocado o arquivo CHANCELGO.md para documentação de versão.
-- [ ] Documentar a estrutura para construir um Layout.
-- [ ] Criar um Template novo padrão.
+- [ ] Linkar com o servidor de vídeo.
+- [ ] Instalar a pasta docs sobre o sistema.
+- [ ] Instalar a pasta forum.
 
