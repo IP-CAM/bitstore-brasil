@@ -6,6 +6,17 @@ e utiliza [Semantic Versioning](https://semver.org/lang/pt-BR/spec/v2.0.0.html).
 
 ## [Não lançada]
 
+## [0.1.4] (Data de lançamento: 07.02.2021)
+### Adicionado
+- Adicionado link para fórum de suporte
+- Adicionado link para site oficial
+- Adicionado link para documentação
+- Adicionado link para vídeo 'Criando sua Loja'.
+- Adicionado janela modal para vídeos tutoriais 'Criando um departamento'.
+
+### Corrigido
+- Resolvido problema background do login não aparece.
+
 ## [0.1.3] (Data de lançamento: 07.02.2021)
 ### Adicionado
 - Traduzido o install para Projeto Bitstore Brasil.

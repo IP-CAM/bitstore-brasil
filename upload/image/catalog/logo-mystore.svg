@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="svg2"
+   width="216"
+   height="58"
+   viewBox="0 0 216 58"
+   sodipodi:docname="logo-mystore.svg"
+   inkscape:version="0.92.1 r15371">
+  <metadata
+     id="metadata8">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs6" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="986"
+     id="namedview4"
+     showgrid="false"
+     showguides="true"
+     inkscape:zoom="2.5925926"
+     inkscape:cx="56.958502"
+     inkscape:cy="-3.7333543"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2"
+     inkscape:guide-bbox="true" />
+  <path
+     style="fill:none;stroke:#da5278;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="m 43.117384,47.995154 c 0,0 -7.98773,3.276019 -15.86249,3.468001 -7.87477,0.191982 -14.94643,-3.323358 -14.94643,-3.323358 l 0.81965,-30.7125 29.12142,-0.144643 z"
+     id="path832"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="czcccc" />
+  <path
+     style="fill:none;stroke:#da5278;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="m 12.779564,21.050162 14.79621,5.488916 15.13713,-5.488916"
+     id="path834"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="ccc" />
+  <path
+     style="fill:none;stroke:#da5278;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="m 18.711684,17.504526 c 0,0 1.77234,-11.7638563 9.13683,-11.6596863 7.36448,0.10417 8.86408,11.6596863 8.86408,11.6596863"
+     id="path836"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="czc" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36.67209244px;line-height:1.25;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro';letter-spacing:0px;word-spacing:0px;fill:#808080;fill-opacity:1;stroke:none;stroke-width:2.29200578"
+     x="54.15081"
+     y="40.301331"
+     id="text844"><tspan
+       sodipodi:role="line"
+       id="tspan842"
+       x="54.15081"
+       y="40.301331"
+       style="fill:#808080;stroke-width:2.29200578">MyStore</tspan></text>
+</svg>
