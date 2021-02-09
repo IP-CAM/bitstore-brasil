@@ -39,9 +39,30 @@
       </div>
     </div>
     <hr>
-    <p>{{ powered }}</p>
+    <div class="row">
+        <div class="col-md-4"><p>{{ powered }}</p></div>
+        <div class="col-md-4 text-center">
+            <div id="topcontrol" title="Scroll Back to Top" style="position: fixed; bottom: 5px; right: 600px; opacity: 1; cursor: pointer;">
+                <img src="https://www.bitstore.com.br/image/up.png" style="width:51px; height:42px">
+            </div>  
+        </div>
+        <div class="col-md-4 text-right">Desenvolvido por <a href="https://www.bitstore.com.br">
+			<img src="https://www.bitstore.com.br/image/logo-bitstore-footer.svg" class="img-fluid" alt="Responsive image"></a>
+			<!--=== Whatsapp ===-->
+				<!--link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"-->
+				<link rel="stylesheet" href="<?php echo URL; ?>/css/whatsapp/whatsapp.css">
+				<a href="https://wa.me/5544998180590?text=Cliente entrando em contato com a www.bitstore.com.br !" style="position:fixed;width:40px;height:40px;bottom:10px;left:10px;background-color:#25d366;color:#FFF;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;
+				   z-index:1000;" target="_blank">
+					<i style="font-size: 90%; padding: 15%;" class="fa fa-whatsapp"></i>
+				</a>
+			<!--=== End Whatsapp ===-->
+		</div>
+    </div>  
   </div>
 </footer>
+        
+<script type="text/javascript" src="catalog/view/javascript/back-to-top.js"></script>  
+
 {% for script in scripts %}
 <script src="{{ script }}" type="text/javascript"></script>
 {% endfor %}
