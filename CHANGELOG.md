@@ -6,6 +6,22 @@ e utiliza [Semantic Versioning](https://semver.org/lang/pt-BR/spec/v2.0.0.html).
 
 ## [Não lançada]
 
+## [0.1.5] (Data de lançamento: 09.02.2021)
+### Modificado
+- Modificado arquivo stylesheet do thema default para a pasta catalog.
+- Modificado arquivo footer do thema default para a pasta catalog.
+
+### Retirado
+- Retirado iPhone6.jpg
+- Retirado iPhone6.jpg
+
+### Adicionado
+- Adicionado banner-man.png
+- Adicionado banner-summer.png
+- Adicionado banner-woman.png
+- Adicionado back-to-top.js
+catalog/view/javascript/back-to-top.js
+
 ## [0.1.4] (Data de lançamento: 07.02.2021)
 ### Adicionado
 - Adicionado link para fórum de suporte
