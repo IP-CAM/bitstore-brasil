@@ -1,5 +1,5 @@
 body {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Source+Sans+Pro', Open Sans, sans-serif;
 	font-weight: 400;
 	color: #666;
 	font-size: 12px;
@@ -95,9 +95,9 @@ div.required .control-label:before {
 #top #form-currency .currency-select:hover,
 #top #form-language .language-select:hover {
 	text-shadow: none;
-	color: #ffffff;
-	background-color: #229ac8;
-	background-image: linear-gradient(to bottom, #23a1d1, #1f90bb);
+	color: #404040;
+	background-color: #EBEBEB;
+	background-image: linear-gradient(to bottom, #E8E8E8, #DBDBDB);
 	background-repeat: repeat-x;
 }
 #top .btn-link, #top-links li, #top-links a {
@@ -112,7 +112,7 @@ div.required .control-label:before {
 	text-shadow: none;
 }
 #top-links .dropdown-menu a:hover {
-	color: #FFF;
+	color: #404040;
 }
 #top .btn-link strong {
 	font-size: 14px;
@@ -197,7 +197,7 @@ div.required .control-label:before {
 	background-color: #EBEBEB;
 	background-image: linear-gradient(to bottom, #E8E8E8, #DBDBDB);
 	background-repeat: repeat-x;
-	border-color: #DBDBDB #DBDBDB #145e7a;
+	border-color: #DBDBDB #DBDBDB #404040;
 	min-height: 40px;
 }
 #menu .nav > li > a {
@@ -266,7 +266,7 @@ div.required .control-label:before {
 	background-color: #EBEBEB;
 	background-image: linear-gradient(to bottom, #E8E8E8, #DBDBDB);
 	background-repeat: repeat-x;
-	border-color: #DBDBDB #DBDBDB #145e7a;
+	border-color: #DBDBDB #DBDBDB #404040;
 }
 #menu .btn-navbar:hover, #menu .btn-navbar:focus, #menu .btn-navbar:active, #menu .btn-navbar.disabled, #menu .btn-navbar[disabled] {
 	color: #888888;

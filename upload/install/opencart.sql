@@ -3395,6 +3395,11 @@ INSERT INTO `oc_setting` (`store_id`, `code`, `key`, `value`, `serialized`) VALU
 (0, 'report_product_purchased', 'report_product_purchased_sort_order', '11', 0),
 (0, 'report_marketing', 'report_marketing_status', '1', 0),
 (0, 'report_marketing', 'report_marketing_sort_order', '12', 0),
+(0, 'config', 'config_whatsapp', '', 0),
+(0, 'config', 'config_facebook', '', 0),
+(0, 'config', 'config_youtube', '', 0),
+(0, 'config', 'config_logo_footer', 'image/logo-bitstore-footer.svg', 0),
+(0, 'config', 'config_image_up', 'image/up.png', 0),
 (0, 'developer', 'developer_theme', '1', 0),
 (0, 'developer', 'developer_sass', '1', 0);
 

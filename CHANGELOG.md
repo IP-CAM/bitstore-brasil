@@ -6,6 +6,16 @@ e utiliza [Semantic Versioning](https://semver.org/lang/pt-BR/spec/v2.0.0.html).
 
 ## [Não lançada]
 
+## [0.1.7] (Data de lançamento: 09.02.2021)
+### Modificado
+- Modificado urls de imagens de logo do footer e up.
+	
+### Inserido
+- Inserido campo para registro de facebook, youtube e whatsapp.
+
+### Corrigido
+- Corrigido cores currency e language e borda do menu principal.
+
 ## [0.1.6] (Data de lançamento: 09.02.2021)
 ### Modificado
 - Modificado o arquivo opencart.sql para instalação limpa.

@@ -427,6 +427,30 @@ class ControllerSettingStore extends Controller {
 		} else {
 			$data['config_comment'] = '';
 		}
+                
+                if (isset($this->request->post['config_whatsapp'])) {
+			$data['config_whatsapp'] = $this->request->post['config_whatsapp'];
+		} elseif (isset($store_info['config_whatsapp'])) {
+			$data['config_whatsapp'] = $store_info['config_whatsapp'];
+		} else {
+			$data['config_whatsapp'] = '';
+		}
+                
+                if (isset($this->request->post['config_facebook'])) {
+			$data['config_facebook'] = $this->request->post['config_facebook'];
+		} elseif (isset($store_info['config_facebook'])) {
+			$data['config_facebook'] = $store_info['config_facebook'];
+		} else {
+			$data['config_facebook'] = '';
+		}
+                
+                if (isset($this->request->post['config_youtube'])) {
+			$data['config_youtube'] = $this->request->post['config_youtube'];
+		} elseif (isset($store_info['config_youtube'])) {
+			$data['config_youtube'] = $store_info['config_youtube'];
+		} else {
+			$data['config_youtube'] = '';
+		}
 
 		$this->load->model('localisation/location');
 
