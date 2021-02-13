@@ -301,6 +301,12 @@ class ControllerSettingSetting extends Controller {
 			$data['config_facebook'] = $this->config->get('config_facebook');
 		}
                 
+                if (isset($this->request->post['config_instagram'])) {
+			$data['config_instagram'] = $this->request->post['config_instagram'];
+		} else {
+			$data['config_instagram'] = $this->config->get('config_instagram');
+		}
+                
                 if (isset($this->request->post['config_youtube'])) {
 			$data['config_youtube'] = $this->request->post['config_youtube'];
 		} else {

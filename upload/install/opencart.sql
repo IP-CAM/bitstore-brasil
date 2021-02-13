@@ -3291,6 +3291,11 @@ INSERT INTO `oc_setting` (`store_id`, `code`, `key`, `value`, `serialized`) VALU
 (0, 'config', 'config_captcha', 'basic', 0),
 (0, 'config', 'config_captcha_page', '["review","return","contact"]', 1),
 (0, 'config', 'config_login_attempts', '5', 0),
+(0, 'config', 'config_whatsapp', '', 0),
+(0, 'config', 'config_facebook', '', 0),
+(0, 'config', 'config_youtube', '', 0),
+(0, 'config', 'config_instagram', '', 0),
+(0, 'config', 'config_img_up', 'image/up.png', 0),
 (0, 'payment_free_checkout', 'payment_free_checkout_status', '1', 0),
 (0, 'payment_free_checkout', 'free_checkout_order_status_id', '1', 0),
 (0, 'payment_free_checkout', 'payment_free_checkout_sort_order', '1', 0),
@@ -3395,11 +3400,6 @@ INSERT INTO `oc_setting` (`store_id`, `code`, `key`, `value`, `serialized`) VALU
 (0, 'report_product_purchased', 'report_product_purchased_sort_order', '11', 0),
 (0, 'report_marketing', 'report_marketing_status', '1', 0),
 (0, 'report_marketing', 'report_marketing_sort_order', '12', 0),
-(0, 'config', 'config_whatsapp', '', 0),
-(0, 'config', 'config_facebook', '', 0),
-(0, 'config', 'config_youtube', '', 0),
-(0, 'config', 'config_logo_footer', 'image/logo-bitstore-footer.svg', 0),
-(0, 'config', 'config_image_up', 'image/up.png', 0),
 (0, 'developer', 'developer_theme', '1', 0),
 (0, 'developer', 'developer_sass', '1', 0);
 

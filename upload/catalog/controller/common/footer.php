@@ -16,10 +16,10 @@ class ControllerCommonFooter extends Controller {
 			}
 		}
 
-                $data['image_up'] = $this->config->get('config_image_up');
-                $data['logo_footer'] = $this->config->get('config_logo_footer');
+                $data['image_up'] = $this->config->get('config_img_up');
                 $data['whatsapp'] = $this->config->get('config_whatsapp');
                 $data['facebook'] = $this->config->get('config_facebook');
+                $data['instagram'] = $this->config->get('config_instagram');                
                 $data['youtube'] = $this->config->get('config_youtube');               
 		$data['contact'] = $this->url->link('information/contact');
 		$data['return'] = $this->url->link('account/return/add', '', true);

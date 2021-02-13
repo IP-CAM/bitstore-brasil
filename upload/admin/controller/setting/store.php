@@ -444,6 +444,14 @@ class ControllerSettingStore extends Controller {
 			$data['config_facebook'] = '';
 		}
                 
+                if (isset($this->request->post['config_instagram'])) {
+			$data['config_instagram'] = $this->request->post['config_instagram'];
+		} elseif (isset($store_info['config_instagram'])) {
+			$data['config_instagram'] = $store_info['config_instagram'];
+		} else {
+			$data['config_instagram'] = '';
+		}
+                
                 if (isset($this->request->post['config_youtube'])) {
 			$data['config_youtube'] = $this->request->post['config_youtube'];
 		} elseif (isset($store_info['config_youtube'])) {
