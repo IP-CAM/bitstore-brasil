@@ -6,6 +6,10 @@ e utiliza [Semantic Versioning](https://semver.org/lang/pt-BR/spec/v2.0.0.html).
 
 ## [Não lançada]
 
+## [0.1.8] (Data de lançamento: 16.02.2021)
+### Alterado
+- Alterado a estrutura de instalação para atender a inclusão de Font Awesome Icons para o thema bistore.
+
 ## [0.1.7] (Data de lançamento: 09.02.2021)
 ### Modificado
 - Modificado urls de imagens de logo do footer e up.
