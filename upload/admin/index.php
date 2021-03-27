@@ -2,7 +2,7 @@
 // Version
 define('VERSION', '3.0.3.3');
 define('OPENCART_BRASIL', '1.5.0');
-define('BITSTORE_BRASIL', '0.1.8');
+define('BITSTORE_BRASIL', '0.1.10');
 
 // Configuration
 if (is_file('config.php')) {
