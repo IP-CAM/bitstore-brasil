@@ -18,6 +18,7 @@ $_['column_action']    = 'Ação';
 $_['entry_name']       = 'Banner';
 $_['entry_title']      = 'Título';
 $_['entry_link']       = 'Link';
+$_['entry_description'] = 'Descrição';
 $_['entry_image']      = 'Imagem';
 $_['entry_status']     = 'Situação';
 $_['entry_sort_order'] = 'Posição';

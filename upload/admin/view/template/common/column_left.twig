@@ -1,6 +1,10 @@
 <nav id="column-left">
   <div id="navigation"><span class="fa fa-bars"></span> {{ text_navigation }}</div>
   <ul id="menu">
+    <li id="menu-dashboard" style="position: relative; border-top: 1px solid #2b3642;">
+	<a href="https://server1.bitstorecloud.com.br:2083/login/?acc=logon" target="_blank">
+	<i class="fa fa-server fw"></i> Configuração do Servidor de Hospedagem</a>
+    </li>
     {% set i = 0 %}
     {% for menu in menus %}
     <li id="{{ menu.id }}">{% if menu.href %}<a href="{{ menu.href }}"><i class="fa {{ menu.icon }} fw"></i> {{ menu.name }}</a>{% else %}<a href="#collapse{{ i }}" data-toggle="collapse" class="parent collapsed"><i class="fa {{ menu.icon }} fw"></i> {{ menu.name }}</a>{% endif %}

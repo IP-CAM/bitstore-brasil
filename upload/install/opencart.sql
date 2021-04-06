@@ -205,6 +205,7 @@ CREATE TABLE `oc_banner_image` (
   `language_id` int(11) NOT NULL,
   `title` varchar(64) NOT NULL,
   `link` varchar(255) NOT NULL,
+  `description` text NOT NULL,
   `image` varchar(255) NOT NULL,
   `sort_order` int(3) NOT NULL DEFAULT '0',
   PRIMARY KEY (`banner_image_id`)
@@ -214,43 +215,43 @@ CREATE TABLE `oc_banner_image` (
 -- Dumping data for table `oc_banner_image`
 --
 
-INSERT INTO `oc_banner_image` (`banner_image_id`, `banner_id`, `language_id`, `title`, `link`, `image`, `sort_order`) VALUES
-(99, 2, 2, 'Man', 'index.php?route=product/category&amp;path=20', 'catalog/demo/banners/banner-man.png', 0),
-(50, 1, 2, 'Feminino', 'index.php?route=product/category&amp;path=18', 'catalog/demo/banners/bannervertical/banner-vertical-woman.jpg', 0),
-(92, 3, 2, 'Levis', '', 'catalog/demo/banners/fabricante/levis-100x100.png', 0),
-(93, 3, 2, 'Nike', '', 'catalog/demo/banners/fabricante/nike-100x100.png', 0),
-(91, 3, 2, 'Lacote', '', 'catalog/demo/banners/fabricante/lacoste-100x100.png', 0),
-(89, 3, 2, 'Adidas', '', 'catalog/demo/banners/fabricante/adidas-100x100.png', 0),
-(90, 3, 2, 'Hollister', '', 'catalog/demo/banners/fabricante/hollister-100x100.png', 0),
-(88, 3, 2, 'Colcci', '', 'catalog/demo/banners/fabricante/colcci-100x100.png', 0),
-(98, 2, 1, 'Woman', 'index.php?route=product/category&amp;path=18', 'catalog/demo/banners/banner-woman.png', 0),
-(87, 3, 2, 'Diesel', '', 'catalog/demo/banners/fabricante/diesel.png', 0),
-(97, 2, 1, 'Summer', 'index.php?route=product/category&amp;path=34', 'catalog/demo/banners/banner-summer.png', 0),
-(49, 1, 2, 'Coleção Verão ', 'index.php?route=product/category&amp;path=34', 'catalog/demo/banners/bannervertical/banner-vertical-summer.jpg', 0),
-(86, 3, 2, 'Dudalina', '', 'catalog/demo/banners/fabricante/duddalina-100x100.png', 0),
-(85, 3, 2, 'Fila', '', 'catalog/demo/banners/fabricante/fila.png', 0),
-(84, 3, 1, 'Adidas', '', 'catalog/demo/banners/fabricante/adidas-100x100.png', 0),
-(83, 3, 1, 'Colcci', '', 'catalog/demo/banners/fabricante/colcci-100x100.png', 0),
-(82, 3, 1, 'Diesel', '', 'catalog/demo/banners/fabricante/diesel.png', 0),
-(81, 3, 1, 'Dudalina', '', 'catalog/demo/banners/fabricante/duddalina-100x100.png', 0),
-(80, 3, 1, 'Fila', '', 'catalog/demo/banners/fabricante/fila.png', 0),
-(96, 2, 1, 'Man', 'index.php?route=product/category&amp;path=20', 'catalog/demo/banners/banner-man.png', 0),
-(47, 1, 1, 'Woman', 'index.php?route=product/category&amp;path=18', 'catalog/demo/banners/bannervertical/banner-vertical-woman.jpg', 0),
-(48, 1, 1, 'Summer Collection', 'index.php?route=product/category&amp;path=34', 'catalog/demo/banners/bannervertical/banner-vertical-summer.jpg', 0),
-(46, 1, 1, 'Man', 'index.php?route=product/manufacturer/info&amp;manufacturer_id=7', 'catalog/demo/banners/bannervertical/banner-vertical-man.jpg', 0),
-(51, 1, 2, 'Homem', 'index.php?route=product/manufacturer/info&amp;manufacturer_id=7', 'catalog/demo/banners/bannervertical/banner-vertical-man.jpg', 0),
-(79, 3, 1, 'Hollister', '', 'catalog/demo/banners/fabricante/hollister-100x100.png', 0),
-(78, 3, 1, 'Lacote', '', 'catalog/demo/banners/fabricante/lacoste-100x100.png', 0),
-(77, 3, 1, 'Levis', '', 'catalog/demo/banners/fabricante/levis-100x100.png', 0),
-(76, 3, 1, 'Nike', '', 'catalog/demo/banners/fabricante/nike-100x100.png', 0),
-(75, 3, 1, 'Puma', '', 'catalog/demo/banners/fabricante/puma-100x100.png', 0),
-(74, 3, 1, 'Tommy Hilfiger', '', 'catalog/demo/banners/fabricante/tommy-hilfiger.png', 0),
-(94, 3, 2, 'Puma', '', 'catalog/demo/banners/fabricante/puma-100x100.png', 0),
-(95, 3, 2, 'Tommy Hilfiger', '', 'catalog/demo/banners/fabricante/tommy-hilfiger.png', 0),
-(100, 2, 2, 'Summer', 'index.php?route=product/category&amp;path=34', 'catalog/demo/banners/banner-summer.png', 0),
-(101, 2, 2, 'Woman', 'index.php?route=product/category&amp;path=18', 'catalog/demo/banners/banner-woman.png', 0);
+INSERT INTO `oc_banner_image` (`banner_image_id`, `banner_id`, `language_id`, `title`, `link`, `description`, `image`, `sort_order`) VALUES
+(99, 2, 2, 'Man', 'index.php?route=product/category&amp;path=20', '&lt;h1 style=&quot;text-align: center;&quot;&gt;&lt;p style=&quot;text-align: left; font-size: 13px; margin-left: 125px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;text-align: left; font-size: 13px; margin-left: 125px;&quot;&gt;&lt;span style=&quot;color: rgb(247, 247, 247); font-size: 36px; font-family: inherit;&quot;&gt;Esteja na Vanguarda!&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;text-align: left; font-size: 13px; margin-left: 125px;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;font color=&quot;#ffd663&quot;&gt;Coleção de roupas masculinas de alta qualidade.&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;\r\n  &lt;/span&gt;&lt;p style=&quot;text-align: left; font-size: 13px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;/h1&gt;&lt;p style=&quot;text-align: left; margin-left: 300px;&quot;&gt;\r\n&lt;a href=&quot;https://bitstore.com.br/&quot; class=&quot;btn btn-primary&quot; role=&quot;button&quot;&gt;Saiba +&lt;/a&gt;&lt;/p&gt;', 'catalog/demo/banners/banner-man.png', 0),
+(50, 1, 2, 'Feminino', 'index.php?route=product/category&amp;path=18', '', 'catalog/demo/banners/bannervertical/banner-vertical-woman.jpg', 0),
+(92, 3, 2, 'Levis', '', '', 'catalog/demo/banners/fabricante/levis-100x100.png', 0),
+(93, 3, 2, 'Nike', '', '', 'catalog/demo/banners/fabricante/nike-100x100.png', 0),
+(91, 3, 2, 'Lacote', '', '', 'catalog/demo/banners/fabricante/lacoste-100x100.png', 0),
+(89, 3, 2, 'Adidas', '', '', 'catalog/demo/banners/fabricante/adidas-100x100.png', 0),
+(90, 3, 2, 'Hollister', '', '', 'catalog/demo/banners/fabricante/hollister-100x100.png', 0),
+(88, 3, 2, 'Colcci', '', '', 'catalog/demo/banners/fabricante/colcci-100x100.png', 0),
+(98, 2, 1, 'Woman', 'index.php?route=product/category&amp;path=18', '&lt;h1 style=&quot;text-align: center;&quot;&gt;&lt;p style=&quot;text-align: left; font-size: 13px; margin-left: 125px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;text-align: left; margin-left: 125px;&quot;&gt;&lt;b style=&quot;font-size: 36px; color: rgb(99, 99, 99); font-family: inherit;&quot;&gt;Women\'s Articles&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;text-align: left; font-size: 13px; margin-left: 125px;&quot;&gt;&lt;span style=&quot;font-size: 18px; color: rgb(206, 198, 206); font-family: inherit;&quot;&gt;Various colors and models of women\'s clothing.&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align: left; font-size: 13px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;/h1&gt;&lt;p style=&quot;text-align: left; margin-left: 300px;&quot;&gt;\r\n&lt;a href=&quot;https://bitstore.com.br/&quot; class=&quot;btn btn-default&quot; role=&quot;button&quot;&gt;Learn more&lt;/a&gt;&lt;/p&gt;', 'catalog/demo/banners/banner-woman.png', 0),
+(87, 3, 2, 'Diesel', '', '', 'catalog/demo/banners/fabricante/diesel.png', 0),
+(97, 2, 1, 'Summer', 'index.php?route=product/category&amp;path=34', '&lt;h1 style=&quot;text-align: center;&quot;&gt;&lt;p style=&quot;text-align: left; font-size: 13px; margin-left: 125px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;text-align: left; margin-left: 250px;&quot;&gt;&lt;span style=&quot;font-size: 36px; color: rgb(247, 247, 247); font-family: &amp;quot;Segoe Script&amp;quot;;&quot;&gt;Summer collection&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align: left; font-size: 13px; margin-left: 250px;&quot;&gt;&lt;b style=&quot;font-size: 18px; color: rgb(132, 99, 0); font-family: inherit;&quot;&gt;Check out the 2021 summer clothing collection.&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;text-align: left; font-size: 13px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;/h1&gt;&lt;p style=&quot;text-align: left; margin-left: 400px;&quot;&gt;\r\n&lt;a href=&quot;https://bitstore.com.br/&quot; class=&quot;btn btn-danger&quot; role=&quot;button&quot;&gt;Learn more&lt;/a&gt;&lt;/p&gt;', 'catalog/demo/banners/banner-summer.png', 0),
+(49, 1, 2, 'Coleção Verão ', 'index.php?route=product/category&amp;path=34', '', 'catalog/demo/banners/bannervertical/banner-vertical-summer.jpg', 0),
+(86, 3, 2, 'Dudalina', '', '', 'catalog/demo/banners/fabricante/duddalina-100x100.png', 0),
+(85, 3, 2, 'Fila', '', '', 'catalog/demo/banners/fabricante/fila.png', 0),
+(84, 3, 1, 'Adidas', '', '', 'catalog/demo/banners/fabricante/adidas-100x100.png', 0),
+(83, 3, 1, 'Colcci', '', '', 'catalog/demo/banners/fabricante/colcci-100x100.png', 0),
+(82, 3, 1, 'Diesel', '', '', 'catalog/demo/banners/fabricante/diesel.png', 0),
+(81, 3, 1, 'Dudalina', '', '', 'catalog/demo/banners/fabricante/duddalina-100x100.png', 0),
+(80, 3, 1, 'Fila', '', '', 'catalog/demo/banners/fabricante/fila.png', 0),
+(96, 2, 1, 'Man', 'index.php?route=product/category&amp;path=20', '&lt;h1 style=&quot;text-align: center;&quot;&gt;&lt;p style=&quot;text-align: left; font-size: 13px; margin-left: 125px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;text-align: left; font-size: 13px; margin-left: 125px;&quot;&gt;&lt;span style=&quot;font-size: 36px; color: rgb(247, 247, 247); font-family: inherit;&quot;&gt;Be at the forefront!&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align: left; font-size: 13px; margin-left: 125px;&quot;&gt;&lt;span style=&quot;font-size: 18px; color: rgb(255, 214, 99); font-family: inherit;&quot;&gt;Collection of high quality men\'s clothing.&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align: left; font-size: 13px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;/h1&gt;&lt;p style=&quot;text-align: left; margin-left: 300px;&quot;&gt;\r\n&lt;a href=&quot;https://bitstore.com.br/&quot; class=&quot;btn btn-primary&quot; role=&quot;button&quot;&gt;Learn more&lt;/a&gt;&lt;/p&gt;', 'catalog/demo/banners/banner-man.png', 0),
+(47, 1, 1, 'Woman', 'index.php?route=product/category&amp;path=18', '', 'catalog/demo/banners/bannervertical/banner-vertical-woman.jpg', 0),
+(48, 1, 1, 'Summer Collection', 'index.php?route=product/category&amp;path=34', '', 'catalog/demo/banners/bannervertical/banner-vertical-summer.jpg', 0),
+(46, 1, 1, 'Man', 'index.php?route=product/manufacturer/info&amp;manufacturer_id=7', '', 'catalog/demo/banners/bannervertical/banner-vertical-man.jpg', 0),
+(51, 1, 2, 'Homem', 'index.php?route=product/manufacturer/info&amp;manufacturer_id=7', '', 'catalog/demo/banners/bannervertical/banner-vertical-man.jpg', 0),
+(79, 3, 1, 'Hollister', '', '', 'catalog/demo/banners/fabricante/hollister-100x100.png', 0),
+(78, 3, 1, 'Lacote', '', '', 'catalog/demo/banners/fabricante/lacoste-100x100.png', 0),
+(77, 3, 1, 'Levis', '', '', 'catalog/demo/banners/fabricante/levis-100x100.png', 0),
+(76, 3, 1, 'Nike', '', '', 'catalog/demo/banners/fabricante/nike-100x100.png', 0),
+(75, 3, 1, 'Puma', '', '', 'catalog/demo/banners/fabricante/puma-100x100.png', 0),
+(74, 3, 1, 'Tommy Hilfiger', '', '', 'catalog/demo/banners/fabricante/tommy-hilfiger.png', 0),
+(94, 3, 2, 'Puma', '', '', 'catalog/demo/banners/fabricante/puma-100x100.png', 0),
+(95, 3, 2, 'Tommy Hilfiger', '', '', 'catalog/demo/banners/fabricante/tommy-hilfiger.png', 0),
+(100, 2, 2, 'Summer', 'index.php?route=product/category&amp;path=34', '&lt;h1 style=&quot;text-align: center;&quot;&gt;&lt;p style=&quot;text-align: left; font-size: 13px; margin-left: 125px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;text-align: left; margin-left: 250px;&quot;&gt;&lt;font color=&quot;#f7f7f7&quot; face=&quot;Segoe Script&quot;&gt;&lt;span style=&quot;font-size: 36px;&quot;&gt;Coleção de Verão&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;text-align: left; font-size: 13px; margin-left: 250px;&quot;&gt;&lt;span style=&quot;font-size: 18px; font-family: inherit;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#846300&quot;&gt;Confira a coleção de roupas de verão de 2021.&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align: left; font-size: 13px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;/h1&gt;&lt;p style=&quot;text-align: left; margin-left: 400px;&quot;&gt;\r\n&lt;a href=&quot;https://bitstore.com.br/&quot; class=&quot;btn btn-danger&quot; role=&quot;button&quot;&gt;Saiba +&lt;/a&gt;&lt;/p&gt;', 'catalog/demo/banners/banner-summer.png', 0),
+(101, 2, 2, 'Woman', 'index.php?route=product/category&amp;path=18', '&lt;h1 style=&quot;text-align: center;&quot;&gt;&lt;p style=&quot;text-align: left; font-size: 13px; margin-left: 125px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;text-align: left; margin-left: 125px;&quot;&gt;&lt;span style=&quot;font-size: 36px;&quot;&gt;&lt;font color=&quot;#636363&quot;&gt;&lt;b&gt;Artigos Femininos&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;text-align: left; font-size: 13px; margin-left: 125px;&quot;&gt;&lt;span style=&quot;font-size: 18px; font-family: inherit;&quot;&gt;&lt;font color=&quot;#cec6ce&quot;&gt;Varias cores e modelos de roupas femininas.&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align: left; font-size: 13px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;/h1&gt;&lt;p style=&quot;text-align: left; margin-left: 300px;&quot;&gt;\r\n&lt;a href=&quot;https://bitstore.com.br/&quot; class=&quot;btn btn-default&quot; role=&quot;button&quot;&gt;Saiba +&lt;/a&gt;&lt;/p&gt;', 'catalog/demo/banners/banner-woman.png', 0);
 
------------------------------------------------------------
+-- --------------------------------------------------------
 
 --
 -- Table structure for table `oc_cart`
@@ -2040,7 +2041,7 @@ INSERT INTO `oc_module` (`module_id`, `name`, `code`, `setting`) VALUES
 (30, 'Departamentos', 'banner', '{"name":"Departamentos","banner_id":"1","width":"255","height":"128","status":"1"}'),
 (29, 'Página principal', 'carousel', '{"name":"Home Page","banner_id":"3","width":"130","height":"100","status":"1"}'),
 (28, 'Página principal', 'featured', '{"name":"Home Page","product":["43","40","42","30"],"limit":"4","width":"200","height":"200","status":"1"}'),
-(27, 'Página principal', 'slideshow', '{"name":"Home Page","banner_id":"2","width":"1140","height":"380","status":"1"}'),
+(27, 'Página principal', 'slideshow', '{"name":"Home Page","banner_id":"2","width":"1254","height":"380","status":"1"}'),
 (31, 'Banner 1', 'banner', '{"name":"Banner 1","banner_id":"1","width":"182","height":"182","status":"1"}');
 
 -----------------------------------------------------------
