@@ -6,6 +6,163 @@ body {
 	line-height: 20px;
 	width: 100%;
 }
+
+@media only screen and (min-width: 360px) {
+  /* For tablets: */
+   .swiper-text h1, h2, h3, h4, h5, h6, p {
+    width: 310px;  
+   }
+  
+  .swiper-text h1 {
+    font-size: 16px;
+    margin-top: 8px;
+    padding-left: 50px;
+    line-height: 2px;
+  }
+  .swiper-text h2 {
+    font-size: 15px;
+    margin-top: 8px;
+    padding-left: 50px;
+    line-height: 2px;
+  }
+  .swiper-text h3 {
+    font-size: 14px;
+    margin-top: 8px;
+    padding-left: 50px;
+    line-height: 2px;
+  }
+  .swiper-text h4 {
+    font-size: 13px;
+    margin-top: 8px;
+    padding-left: 50px;
+    line-height: 2px;
+  }
+  .swiper-text h5 {
+    font-size: 12px;
+    margin-top: 8px;
+    padding-left: 50px;
+    line-height: 2px;
+  }
+  .swiper-text h6 {
+    font-size: 11px;
+    margin-top: 8px;
+    padding-left: 50px;
+    line-height: 2px;
+  }
+  .swiper-text  p {
+    font-size: 10px;
+    margin-top: 2px;
+    padding-left: 50px;
+    line-height: 2px;
+  }
+}
+
+@media only screen and (min-width: 640px) {
+  /* For tablets: */
+   .swiper-text h1, h2, h3, h4, h5, h6, p {
+    width: 620px;  
+   }
+  
+  .swiper-text h1 {
+    font-size: 24px;
+    margin-top: 8px;
+    padding-left: 50px;
+    line-height: 8px;
+  }
+  .swiper-text h2 {
+    font-size: 23px;
+    margin-top: 8px;
+    padding-left: 50px;
+    line-height: 8px;
+  }
+  .swiper-text h3 {
+    font-size: 22px;
+    margin-top: 8px;
+    padding-left: 50px;
+    line-height: 8px;
+  }
+  .swiper-text h4 {
+    font-size: 21px;
+    margin-top: 8px;
+    padding-left: 50px;
+    line-height: 8px;
+  }
+  .swiper-text h5 {
+    font-size: 20px;
+    margin-top: 8px;
+    padding-left: 50px;
+    line-height: 8px;
+  }
+  .swiper-text h6 {
+    font-size: 19px;
+    margin-top: 8px;
+    padding-left: 50px;
+    line-height: 8px;
+  }
+  .swiper-text  p {
+    font-size: 16px;
+    margin-top: 8px;
+    padding-left: 50px;
+    line-height: 8px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  /* For tablets: */
+   .swiper-text h1, h2, h3, h4, h5, h6, p {
+    width: 1184px;  
+   }
+  
+  .swiper-text h1 {
+    font-size: 60px;
+    margin-top: 16px;
+    padding-left: 50px;
+    line-height: 35px;
+    margin-bottom: 25px;
+  }
+  .swiper-text h2 {
+    font-size: 55px;
+    line-height: 16px;
+    padding-left: 50px;
+    line-height: 35px;
+    margin-bottom: 25px;
+  }
+  .swiper-text h3 {
+    font-size: 50px;
+    margin-top: 8px;
+    padding-left: 50px;
+    line-height: 35px;
+    margin-bottom: 25px;
+  }
+  .swiper-text h4 {
+    font-size: 45px;
+    margin-top: 8px;
+    padding-left: 50px;
+    line-height: 35px;
+    margin-bottom: 25px;
+  }
+  .swiper-text h5 {
+    font-size: 40px;
+    margin-top: 8px;
+    padding-left: 50px;
+    line-height: 35px;
+    margin-bottom: 25px;
+  }
+  .swiper-text h6 {
+    font-size: 35px;
+    margin-top: 8px;
+    padding-left: 50px;
+    line-height: 35px;
+  }
+  .swiper-text  p {
+    font-size: 16px;
+    margin-top: 8px;
+    padding-left: 50px;
+    line-height: 8px;
+  }
+}
+
+
 h1, h2, h3, h4, h5, h6 {
 	color: #444;
 }
