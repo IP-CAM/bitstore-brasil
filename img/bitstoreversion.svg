@@ -16,7 +16,7 @@
  <g font-family="Verdana,Geneva,DejaVu Sans,sans-serif" font-size="110" text-anchor="middle" text-rendering="geometricPrecision">
   <text transform="scale(.1)" x="255" y="150" fill="#010101" fill-opacity=".3" aria-hidden="true" textLength="390">release</text>
   <text transform="scale(.1)" x="255" y="140" fill="#fff" textLength="390">release</text>
-  <text transform="scale(.1)" x="705" y="150" fill="#010101" fill-opacity=".3" aria-hidden="true" textLength="350">v 0.1.10</text>
-  <text transform="scale(.1)" x="705" y="140" fill="#ffffff" textLength="350">v 0.1.10</text>
+  <text transform="scale(.1)" x="705" y="150" fill="#010101" fill-opacity=".3" aria-hidden="true" textLength="350">v 0.1.11</text>
+  <text transform="scale(.1)" x="705" y="140" fill="#ffffff" textLength="350">v 0.1.11</text>
  </g>
 </svg>
